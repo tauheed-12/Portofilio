@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdModeNight } from "react-icons/md";
 import { PiSunLight } from "react-icons/pi";
 import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
@@ -17,11 +16,11 @@ const NavBar = () => (
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold md:font-bold">MT</h1>
         <div className="flex flex-row gap-3 items-center justify-center">
             <ul className="hidden sm:flex flex-row gap-4 text-md font-semibold">
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Skills</a></li>
-                <li><a href='#'>Works</a></li>
-                <li><a href='#'>Experience</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skill'>Skills</a></li>
+                <li><a href='#works'>Works</a></li>
+                <li><a href='#experience'>Experience</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
             <div className="w-3 h-full bg-white"></div>
             <PiSunLight />
@@ -58,7 +57,7 @@ const Intro = () => (
         </div>
         <div className="mt-0 flex justify-center items-center md:flex-none">
             <div className="w-72 h-72 relative">
-                <img src={dp} alt='display picture' className="w-72 h-72 bg-slate-600 absolute top-0 z-10 border-solid-4 border-blue-950" />
+                <img src={dp} alt={`${dp}`} className="w-72 h-72 bg-slate-600 absolute top-0 z-10 border-solid-4 border-blue-950" />
                 <div className="w-72 h-72 bg-slate-600 absolute top-8 left-8 z-0"></div>
             </div>
         </div>
@@ -66,7 +65,7 @@ const Intro = () => (
 );
 
 const About = () => (
-    <div className="px-12 sm:px-24 md:px-32 my-0  py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center">
+    <div className="px-12 sm:px-24 md:px-32 my-0  py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center" id='about'>
         <div className="px-4 py-2 bg-slate-300 text-black rounded-2xl">
             <span>About Me</span>
         </div>
@@ -114,7 +113,7 @@ const About = () => (
 );
 
 const Skills = () => (
-    <div className="px-12 sm:px-24 md:px-32 my-0 py-4 sm:py-8 md:py-12 bg-darkBlue text-white flex flex-col gap-8 justify-center items-center">
+    <div className="px-12 sm:px-24 md:px-32 my-0 py-4 sm:py-8 md:py-12 bg-darkBlue text-white flex flex-col gap-8 justify-center items-center" id='skill'>
         <div className="px-6 py-1 bg-slate-300 text-black rounded-2xl">
             <span className="text-lg">Skills</span>
         </div>
@@ -133,7 +132,7 @@ const Skills = () => (
 );
 
 const Experience = () => (
-    <div className="px-4 sm:px-24 lg:px-32 py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-4 sm:gap-6 md:gap-8 justify-center items-center">
+    <div className="px-4 sm:px-24 lg:px-32 py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-4 sm:gap-6 md:gap-8 justify-center items-center" id='experience'>
         <div className="px-4 py-2 bg-slate-300 text-black rounded-2xl">
             <span>Experiences</span>
         </div>
@@ -159,7 +158,7 @@ const Experience = () => (
 );
 
 const Works = () => (
-    <div className="px-4 sm:px-24 md:px-32 py-4 sm:py-8 md:py-12 bg-darkBlue text-white flex flex-col gap-8 justify-center items-center">
+    <div className="px-4 sm:px-24 md:px-32 py-4 sm:py-8 md:py-12 bg-darkBlue text-white flex flex-col gap-8 justify-center items-center" id='works'>
         <div className="px-6 py-1 bg-slate-300 text-black rounded-2xl">
             <span className="text-lg">Works</span>
         </div>
@@ -192,7 +191,7 @@ const Works = () => (
 );
 
 const Contact = () => (
-    <div className="px-4 sm:px-24 md:px-32 py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center">
+    <div className="px-4 sm:px-24 md:px-32 py-4 sm:py-8 md:py-12 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center" id='contact'>
         <div className="px-6 py-1 bg-slate-300 text-black rounded-2xl">
             <span className="text-lg">Get In Touch</span>
         </div>
