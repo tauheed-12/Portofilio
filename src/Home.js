@@ -103,7 +103,7 @@ const About = ({ p, sectionbackground2, heding }) => (
         <div className={`px-4 py-2 bg-slate-300 text-black rounded-2xl`}>
             <span>About Me</span>
         </div>
-        <div className="flex flex-col lg:flex-row gap-2 justify-center items-center">
+        <div className="flex flex-col lg:flex-row gap-2 justify-center items-center" data-aos="fade-in">
             <div className="flex-1 flex justify-center items-center">
                 <div className="w-64 sm:w-72 md:w-96 h-[300px] sm:h-[350px] md:h-[500px] relative">
                     <img src={aboutImg} alt='about img' className="absolute w-60 h-full sm:w-72 sm:h-full md:w-96 md:h-full top-0 left-4 md:left-0 z-10" />
@@ -156,7 +156,7 @@ const Skills = ({ p, sectionbackground1, heding }) => (
         </div>
         <div className="flex gap-12 flex-wrap justify-center items-center">
             {skills.map((skill, index) => (
-                <div className="flex flex-col justify-center items-center gap-2" key={index}>
+                <div className="flex flex-col justify-center items-center gap-2" key={index} data-aos="fade-in">
                     <img src={skill.image} alt={`${skill.name} logo`} className="w-16 h-16 md:w-20 md:h-20" />
                     <span className={`text-lg font-medium ${p}`}>{skill.name}</span>
                 </div>
@@ -171,7 +171,7 @@ const Experience = ({ p, sectionbackground2, heding, card1 }) => (
             <span>Experiences</span>
         </div>
         {experiences.map((exp, index) => (
-            <div className={`flex flex-col p-4  lg:flex-row sm:mx-12 md:mx-16 my-4 sm:my-5 md:my-6 sm:p-4 md:p-8 rounded-lg ${card1} ${heding} gap-2 lg:w-3/4`} key={index}>
+            <div className={`flex flex-col p-4  lg:flex-row sm:mx-12 md:mx-16 my-4 sm:my-5 md:my-6 sm:p-4 md:p-8 rounded-lg ${card1} ${heding} gap-2 lg:w-3/4`} key={index} data-aos="fade-in">
                 <div className="px-12 py-4 flex justify-center items-center md:flex-none">
                     <img src={exp.image} alt={`${exp.title} logo`} className="w-24 h-24" />
                 </div>
@@ -201,7 +201,7 @@ const Works = ({ p, sectionbackground1, heding, card1, card2 }) => (
         </div>
         <div className="flex flex-col gap-12">
             {works.map((work, id) => (
-                <div className={`rounded-xl flex flex-col lg:flex-row ${id % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'}`} key={id}>
+                <div className={`rounded-xl flex flex-col lg:flex-row ${id % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'}`} key={id} data-aos="fade-in">
                     <div className={`flex-1 p-6 ${card2}`}>
                         <img src={work.image} alt={`${work.title} work`} />
                     </div>
