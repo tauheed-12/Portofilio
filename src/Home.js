@@ -68,8 +68,7 @@ const Intro = ({ p }) => (
         <div className="flex flex-col justify-center md:items-start gap-6 mt-24 md:mt-0">
             <div className="flex flex-col gap-3">
                 <h1 className={`${p} text-5xl font-medium`}>Hi, I'm Mohd Tauheed 👋</h1>
-                <p className={`w-full ${p} md:w-10/12`}>I'm a full stack developer (React.js & Node.js) with a focus on creating
-                    (and occasionally designing) exceptional digital experiences that are fast, accessible, visually
+                <p className={`w-full ${p} md:w-10/12`}>I'm a full stack developer (React.js & Node.js) with a focus on creating exceptional digital experiences that are fast, accessible, visually
                     appealing, and responsive. Even though I have been creating web applications for over 2 years,
                     I still love it as if it was something new.</p>
             </div>
@@ -112,13 +111,12 @@ const About = ({ p, sectionbackground2, heding }) => (
             </div>
             <div className={`flex-1 flex flex-col gap-4 mt-28 lg:mt-0 ${p}`}>
                 <h3 className="text-4xl font-medium">Curious about me? Here you have it:</h3>
-                <p>I'm a passionate, self-proclaimed designer who specializes in full stack development
+                <p>I'm a passionate, self-proclaimed developer who specializes in full stack development
                     (React.js & Node.js). I am enthusiastic about bringing the technical and visual aspects
                     of digital products to life. User experience, pixel perfect design, and writing clear,
                     readable, highly performant code matters to me.</p>
                 <p>I began my journey as a web developer in 2022, and since then, I've continued to grow and evolve
-                    as a developer, taking on new challenges and learning the latest technologies along the way. Now, in
-                    my early thirties, 2 years after starting my web development journey, I'm building cutting-edge web
+                    as a developer, taking on new challenges and learning the latest technologies along the way. Now, 2 years after starting my web development journey, I'm building cutting-edge web
                     applications using modern technologies such as React.js, JavaScript, Express.js, Tailwindcss, Firebase
                     and much more.</p>
                 <p>I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to
@@ -136,7 +134,7 @@ const About = ({ p, sectionbackground2, heding }) => (
                     </ul>
                     <ul className="list-disc ml-4">
                         <li>Avid learner</li>
-                        <li>Aspiring indie hacke</li>
+                        <li>Aspiring developer</li>
                     </ul>
                 </ul>
                 <p>One last thing, I'm available for freelance work, so feel free to reach out

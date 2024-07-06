@@ -7,7 +7,7 @@ export const works = [
         image: CourseWorld,
         title: 'CourseWorld',
         description: 'A full-stack web app using React.js and Express.js with PostgreSQL. Features student registration and profile creation upon login, course enrollment, and profile updates. Teachers can register, add courses with thumbnails, and work on adding video uploads, akin to Udemy functionalities.',
-        skills: ['React.js', 'TailwindCss', 'PostgreeSQL', 'Express.js'],
+        skills: ['React.js', 'TailwindCss', 'PostgreSQL', 'Express.js'],
         github: 'https://github.com/tauheed-12/CourseApp',
     }, {
         image: DoctApointment,

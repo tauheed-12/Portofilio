@@ -18,7 +18,7 @@ export const experiences = [
         title: 'Web developer',
         date: 'June 2024 - Present',
         description: [
-            'Working with technologies like ReactJs, TailwindCss, PostgreeSQL',
+            'Working with technologies like React.js, TailwindCss, PostgreSQL',
             'Coordinating with teams members effectively'
         ]
     },
@@ -27,7 +27,7 @@ export const experiences = [
         title: 'Web developer',
         date: 'August 2023 - Present',
         description: [
-            'Working with various technologies like ReactJs, TailwindCss',
+            'Working with various technologies like React.js, TailwindCss',
             'Participated and coordinated in various events',
             'Conducted workshop on ReactJs'
         ]
@@ -36,7 +36,7 @@ export const experiences = [
         title: 'Web developer',
         date: 'October 2023 - Present',
         description: [
-            'Working with technologies like NextJs, TailwindCss',
+            'Working with technologies like Next.js, TailwindCss',
             'Participated actively in the events organised by society'
         ]
     }
