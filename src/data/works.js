@@ -14,7 +14,7 @@ export const works = [
         title: 'Doctor Appintment Booking',
         description: 'A website where a person can book a slot to consult with a specific doctor is developed, utilizing React.js for the frontend, Node.js for the backend, and MongoDB for the database. Upon clicking on a particular doctor, the website displays information about that doctor on a dedicated page.',
         skills: ['React.js', 'CSS', 'Node.js', 'Express.js', 'MongoDB', 'Nodemailer'],
-        github: 'https://github.com/tauheed-12/Doct_appointment_booking'
+        github: 'https://github.com/tauheed-12/appointment-booking'
     }, {
         image: devx,
         title: 'DevX JMI Hackathon',
