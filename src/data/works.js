@@ -1,8 +1,16 @@
 import CourseWorld from '../assets/courseworld.png';
 import devx from '../assets/DevX.png';
 import DoctApointment from '../assets/Doct-Appointment.png';
+import furniro from '../assets/furniro.png'
 
 export const works = [
+    {
+        image: furniro,
+        title: 'Furniro E-Commerce platform',
+        description: 'Furniro is a furniture e-commerce platform using React.js for the frontend and Node.js for the backend. The code is modularized: frontend in components, backend in schema models, config, controllers, and routers. It includes regular expression validation and various checks in MongoDB schemas for data integrity.',
+        skills: ['React.js', 'Node.js', 'TailwindCss', 'Regex', 'Nodemailer'],
+        github: 'https://github.com/tauheed-12/Furniro'
+    },
     {
         image: CourseWorld,
         title: 'CourseWorld',
